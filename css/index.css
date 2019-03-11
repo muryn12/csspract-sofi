@@ -2,7 +2,8 @@
 
 :root {
     font-family: 'entypo', sans-serif;
-    --main-font-color: purple;
+    color: purple;
+    text-align: center;
 }
 
 body {
@@ -10,8 +11,9 @@ body {
     margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h4, h5, h6, p {
     margin: 0;
+    padding: 20px;
 }
 
 header nav .logo {
@@ -22,6 +24,7 @@ header nav .logo {
 
 header nav .menu {
     display: flex;
+    align-items: center;
 }
 
 header nav .menu {
@@ -35,7 +38,7 @@ header nav .menu li {
 
 header nav .menu a {
     text-decoration: none;
-    color: var(--main-font-color);
+    color: purple;
     text-transform: uppercase;
 }
 
@@ -67,12 +70,20 @@ header .baner {
 
 header .baner h1 {
     margin-bottom: 20px;
+    color: white;
 }
 
+.services-card {
+    overflow: hidden;
+}
 
 .services-card img {
     display: block;
-    width: 100%;
+    height: 360px;
+}
+
+.aligned-image {
+    margin-left: -150px;
 }
 
 .services-list {
@@ -92,11 +103,6 @@ header .baner h1 {
     }
 }
 
-@media (min-width: 980px) {
-    .services-list {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -125,7 +131,45 @@ header .baner h1 {
     color: blue;
 }
 
+.left-image {
+    float: left;
+    
+}
 
+.left-image img {
+    width: 300px;
+    margin-right: 60px;
+}
 
+.right-text {
+    margin: 130px 0;
+}
 
+.h3 {
+    margin: 0;
+    padding: 40px;
+}
+
+.contact {
+    padding: 10px;
+    font-size: 2em;
+}
+
+* {
+  margin: 0;
+}
+
+.wrap {
+  background: pink;
+}
+
+.content {
+ min-height: calc(20vh - 10px);
+ background: #efe0ef;
+}
+
+.footer {
+  height: 40px;
+  background: #b989aa;
+}
 
