@@ -1,20 +1,19 @@
-.form-style-3{
-	max-width: 450px;
+.form-style{
+	max-width: 650px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-.form-style-3 label{
+.form-style label{
 	display:block;
 	margin-bottom: 10px;
 }
-.form-style-3 label > span{
-	float: left;
+.form-style label > span{
 	width: 100px;
 	color: #F072A9;
 	font-weight: bold;
 	font-size: 13px;
 	text-shadow: 1px 1px 1px #fff;
 }
-.form-style-3 fieldset{
+.form-style fieldset{
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -26,7 +25,7 @@
 	-moz-box-shadow: inset 0px 0px 15px #FFE5E5;
 	-webkit-box-shadow: inset 0px 0px 15px #FFE5E5;
 }
-.form-style-3 fieldset legend{
+.form-style fieldset legend{
 	color: #FFA0C9;
 	border-top: 1px solid #FFD2D2;
 	border-left: 1px solid #FFD2D2;
@@ -42,20 +41,20 @@
 	font-weight: normal;
 	font-size: 12px;
 }
-.form-style-3 textarea{
+.form-style textarea{
 	width:250px;
 	height:100px;
 }
-.form-style-3 input[type=text],
-.form-style-3 input[type=date],
-.form-style-3 input[type=datetime],
-.form-style-3 input[type=number],
-.form-style-3 input[type=search],
-.form-style-3 input[type=time],
-.form-style-3 input[type=url],
-.form-style-3 input[type=email],
-.form-style-3 select, 
-.form-style-3 textarea{
+.form-style input[type=text],
+.form-style input[type=date],
+.form-style input[type=datetime],
+.form-style input[type=number],
+.form-style input[type=search],
+.form-style input[type=time],
+.form-style input[type=url],
+.form-style input[type=email],
+.form-style select, 
+.form-style textarea{
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -69,8 +68,8 @@
 	background: #FFEFF6;
 	width:50%;
 }
-.form-style-3  input[type=submit],
-.form-style-3  input[type=button]{
+.form-style  input[type=submit],
+.form-style  input[type=button]{
 	background: #EB3B88;
 	border: 1px solid #C94A81;
 	padding: 5px 15px 5px 15px;

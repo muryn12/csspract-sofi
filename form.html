@@ -10,15 +10,14 @@
 </head>
 <body>
   <nav><a href="index.html">Повернутися на головну сторінку </a></nav>
-  <form method="POST" action="https://formspree.io/broslavska@gmail.com">
-    <div class="form-style-3">
+    <div class="form-style">
       <fieldset>
         <legend>Особисті дані</legend>
-        <label for="field1"><span>Ім'я <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
-        <label for="field2"><span>Електронна адреса <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
-        <label for="field3"><span>Номер телефону <span class="required">*</span></span><input type="text" class="input-field" name="field3" value="" /></label>
-        <label for="field4"><span>Послуга</span>
-          <select name="field4" class="select-field">
+        <label for="item-name"><span>Ім'я<span class="required">*</span></span><input type="text" class="input-item" name="item-name" value="" /></label>
+        <label for="item-email"><span>Електронна адреса<span class="required">*</span></span><input type="email" class="input-item" name="item-email" value="" /></label>
+        <label for="item-phone"><span>Номер телефону<span class="required">*</span></span><input type="text" class="input-item" name="item-phone" value="" /></label>
+        <label for="item-services"><span>Послуга</span>
+          <select name="item-services" class="select-item">
             <option value="Манік'юр">Манік'юр</option>
             <option value="Педик'юр">Педик'юр</option>
             <option value="Корекція та фарбування брів">Корекція та фарбування брів</option>
@@ -28,11 +27,12 @@
       </fieldset>
       <fieldset>
         <legend>Повідомлення</legend>
-        <label for="field6"><span>Повідомлення <span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+        <label for="item-message"><span>Повідомлення<span class="required">*</span></span><textarea name="item-message" class="textarea-item"></textarea></label>
         <label><input type="submit" value="Send" /></label>
       </fieldset>
       </div>
   </form>
+  <div class="server-response"></div>
   <section>
     <hi>Form Sample</hi>
     <form class="login-form">

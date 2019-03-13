@@ -57,7 +57,7 @@ header nav .menu {
     flex: 1;
 }
 
-header .baner {
+header .banner {
     background-image: url(../img/logo.jpg);
     background-size: cover;
     background-position: center;
@@ -87,19 +87,19 @@ header .baner h1 {
 }
 
 .services-list {
-        display: grid;
-        grid-gap: 5px;
+    display: grid;
+    grid-gap: 5px;
 }
 
 @media (min-width: 480px) {
     .services-list {
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 660px) {
     .services-list {
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -112,7 +112,7 @@ header .baner h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 20px 10px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
@@ -155,9 +155,6 @@ header .baner h1 {
     font-size: 2em;
 }
 
-* {
-  margin: 0;
-}
 
 .wrap {
   background: pink;
