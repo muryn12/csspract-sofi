@@ -1,6 +1,7 @@
 .form-style{
 	max-width: 650px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: auto;
 }
 .form-style label{
 	display:block;
@@ -86,4 +87,13 @@
 .required{
 	color:red;
 	font-weight:normal;
+}
+
+.login-form{
+	margin: auto;
+	text-align: center;
+}
+
+.form-sample{
+	text-align: center;
 }

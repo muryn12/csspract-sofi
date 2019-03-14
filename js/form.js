@@ -8,6 +8,8 @@ function submitForm(e){
     .then( response => response.text())
     .then( html => document.querySelector('.server-response').innerHTML=html);
 }
+
+
 document.querySelector('.login-form').addEventListener('submit',submitForm);
 function submitForm(e){
     e.preventDefault();
